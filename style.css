@@ -144,8 +144,23 @@ MY SKILLS   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 */
-#chSection {
+#myWorkBannerArea {
     margin: 0px 12.5% 0px 12.5%;
+    display: grid;
+    height: 223px;
+    grid-template-rows: 1fr;
+    grid-template-columns:443px 55%;
+}
+#myWorkBanner {
+    background-color: #2D2C44;
+}
+#myWorkBackground {
+    background-color: black;
+}
+/* Civic Helper Section */
+
+#chSection {
+    margin: 40px 12.5% 0px 12.5%;
     display: grid;
     height: 704px;
     grid-template-rows: 1fr;
@@ -164,6 +179,8 @@ My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     background-color: #75C5DE;
 }
 
+/* FTC Redesign Section */
+
 #ftcSection {
     margin: 40px 12.5% 0px 12.5%;
     display: grid;
@@ -178,11 +195,13 @@ My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     color: #FFFFFF;
     font-size: 36px;
 }
-
 #ftcDescription p {
     color: #FFFFFF;
     font-size: 18px;    
 }
+
+/*Border Route Trail Section*/
+
 #brtSection {
     margin: 40px 12.5% 40px 12.5%;
     display: grid;
