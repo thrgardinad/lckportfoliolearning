@@ -3,6 +3,13 @@ body {
     font-family: 'Passion One', cursive;
     background-color: #000000;
 }
+
+/*
+
+NAV TOPBAR
+
+*/
+
 #navBar {
     display: flex;
     flex-direction: row;
@@ -26,6 +33,13 @@ body {
     color: #75C5DE;
     font-weight: 400;
 }
+
+/*
+
+ABOUT ME
+
+*/
+
 #aboutMe {
     margin: 0px 12.5%;
     display: grid;
@@ -71,6 +85,13 @@ body {
     color: #CBA1C5;
     font-family: 'Comfortaa', cursive;
 }
+
+/*
+
+MY SKILLS
+
+*/
+
 #mySkills {
     margin: 0px 12.5%;
     display: grid;
@@ -116,3 +137,10 @@ body {
     color: #CBA1C5;
     font-family: 'Comfortaa', cursive;
 }
+
+/*
+
+My Works
+
+*/
+
