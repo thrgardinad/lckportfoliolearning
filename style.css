@@ -144,3 +144,32 @@ My Works
 
 */
 
+/*
+
+Footer
+
+*/
+
+#footerBar{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    font-size: 48px;
+}
+#contactInformation {
+    background-color: #2D2C44;
+    color: #CBA1C5;
+    display: flex;
+    width: 1152px;
+    height: 120px;
+    align-items: center;
+    justify-content: flex-start;
+}
+#contactInformation p {
+    cursor: pointer;
+    text-decoration: none;
+}
+.contactLabel {
+    color: #75C5DE;
+    font-weight: 400;
+}
