@@ -6,7 +6,7 @@ body {
 
 /*
 
-NAV TOPBAR
+NAV TOPBAR  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 */
 
@@ -36,12 +36,13 @@ NAV TOPBAR
 
 /*
 
-ABOUT ME
+ABOUT ME    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 */
 
 #aboutMe {
     margin: 0px 12.5%;
+    margin-top: 33px;
     display: grid;
     width: 1008px;
     height: 704px;
@@ -88,7 +89,7 @@ ABOUT ME
 
 /*
 
-MY SKILLS
+MY SKILLS   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 */
 
@@ -140,20 +141,79 @@ MY SKILLS
 
 /*
 
-My Works
+My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 */
+#chSection {
+    margin: 0px 12.5% 0px 12.5%;
+    display: grid;
+    height: 704px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 55%;
+}
+#chDescription h5 {
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+#chDescription p {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+#chImages {
+    background-color: #75C5DE;
+}
+
+#ftcSection {
+    margin: 40px 12.5% 0px 12.5%;
+    display: grid;
+    height: 704px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 55% 1fr;
+}
+#ftcImages {
+    background-color: #75C5DE;
+}
+#ftcDescription h6 {
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+#ftcDescription p {
+    color: #FFFFFF;
+    font-size: 18px;    
+}
+#brtSection {
+    margin: 40px 12.5% 40px 12.5%;
+    display: grid;
+    height: 704px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+#brtDescription h7 {
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+#brtDescription p {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+#brtImages {
+    background-color: #75C5DE;
+}
+
 
 /*
 
-Footer
+Footer  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 */
 
 #footerBar{
     display: flex;
     flex-direction: row;
-    margin: 0px 5%;
+    margin: 0px 5% 0px 5%;
     font-size: 48px;
 }
 #contactInformation {
