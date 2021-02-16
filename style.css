@@ -20,8 +20,8 @@ NAV TOPBAR  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     background-color: #232222;
     color: #CBA1C5;
     display: flex;
-    width: 1152px;
-    height: 120px;
+    width: 100vw;
+    height: 10vh;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -44,8 +44,9 @@ ABOUT ME    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     margin: 0px 12.5%;
     margin-top: 33px;
     display: grid;
-    width: 1008px;
-    height: 704px;
+    width: 90vw;
+    height: 70vh;
+    min-height: 700px;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
@@ -69,24 +70,32 @@ ABOUT ME    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     grid-row: 1/10;  
  }
 .aboutMeArea {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: flex-start;
+
     flex-wrap: wrap;
     display: flex;
-    position: relative;
     background-color: #000000;
 } 
 #aboutMeSquare h1 {
     color: #75C5DE;
+    font-size: 7vw;
+    position: relative;
+    left: 5%;
+    margin: 0px;
 }
 #aboutMeSquare h2 {
     color: #CBA1C5;
+    font-size: 7vw;
+    position: relative;
+    left: 5%;
+    margin: 0px;
 }
 #aboutMeSquare p {
     color: #CBA1C5;
     font-family: 'Comfortaa', cursive;
+    font-size: 3vw;
+    position: relative;
+    left: 5%;
+    width: 70%;
 }
 
 /*
@@ -98,8 +107,9 @@ MY SKILLS   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 #mySkills {
     margin: 0px 12.5%;
     display: grid;
-    width: 1008px;
-    height: 704px;
+    width: 90vw;
+    height: 70vh;
+    min-height: 700px;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
@@ -134,13 +144,25 @@ MY SKILLS   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 } 
 #mySkillsSquare h3 {
     color: #75C5DE;
+    font-size: 7vw;
+    position: relative;
+    right: 5%;
+    margin: 0px;
 }
 #mySkillsSquare h4 {
     color: #CBA1C5;
+    font-size: 7vw;
+    position: relative;
+    right: 5%;
+    margin: 0px;
 }
 #mySkillsSquare p {
     color: #CBA1C5;
     font-family: 'Comfortaa', cursive;
+    font-size: 3vw;
+    position: relative;
+    right: 5%;
+
 }
 
 /*
@@ -157,16 +179,24 @@ My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 }
 #myWorkBanner {
     background-color: #2D2C44;
+    color: #CBA1C5;
+    font-size: 48px;
+}
+.myWorkText {
+    margin: 0px 12.5% 0px 12.5%;
 }
 #myWorkBackground {
     background-color: black;
 }
+
+
 /* Civic Helper Section */
+
 
 #chSection {
     margin: 40px 12.5% 0px 12.5%;
     display: grid;
-    height: 704px;
+    min-height: 704px;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 55%;
 }
@@ -215,7 +245,7 @@ My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     display: grid;
     height: 704px;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 55%;
 }
 #brtDescription h7 {
     color: #FFFFFF;
@@ -250,7 +280,7 @@ Footer  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     color: #CBA1C5;
     display: flex;
     width: 1152px;
-    height: 120px;
+    min-height: 120px;
     align-items: center;
     justify-content: flex-start;
 }

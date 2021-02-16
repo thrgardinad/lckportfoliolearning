@@ -21,10 +21,10 @@
 <body>
     <nav id="navBar">
         <div id="navigation">
-          <p class="highlight">Myself</p>
-          <p>Skills</p>
-          <p>Work</p>
-          <p>Contact</p>
+          <p class="highlight" id="myselfText">Myself</p>
+          <p id="navSkills">Skills</p>
+          <p id="navWork">Work</p>
+          <p id="navContact">Contact</p>
         </div>
     </nav>
     <section id="aboutMe">
@@ -61,8 +61,14 @@
         <img src="images/leonMajesticImage.png" id="leonSnow" class="mySkillsArea">
     </section>
     <section id="myWorkBannerArea">
-        <div id="myWorkBanner" class="myWorkArea"></div>
-        <div id="myWorkBackground" class="myWorkArea"></div>
+        <div id="myWorkBanner" class="myWorkArea">
+            <br>
+            <p class="highlight myWorkText">My</p>
+            <p class="myWorkText">Work</p>
+        </div>
+        <div id="myWorkBackground" class="myWorkArea">
+            
+        </div>
     </section>
     <section id="chSection">
         <div id="chDescription" class="chArea">
@@ -117,4 +123,6 @@
     </div>
 </footer>
 /* bubkis */ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="index.js"></script>
 </html>
