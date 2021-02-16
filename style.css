@@ -55,11 +55,13 @@ ABOUT ME    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     grid-column: span 7/8;
     grid-row: span 9/10;
 }
-#leonMajestic {
-    background-image: url("/images/leonMajesticImage.png");
+#leonMajestic {    
     background-color: #75C5DE;
     grid-column: span 3/10;
-    grid-row: span 4/8;    
+    grid-row: span 4/8;
+    background-image: url("/images/leonMajesticImage.png");
+    max-width: 100%;
+    height: auto;    
 }
 #backgroundMe {
     background-color: #000000;
@@ -107,10 +109,12 @@ MY SKILLS   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     grid-row: span 9/10;
 }
 #leonSnow {
-    background-image: url("/images/leonSnow.png");
     background-color: #75C5DE;
     grid-column: span 3/4;
     grid-row: span 4/8;
+    background-image: url("/images/leonSnow.png");
+    max-width: 100%;
+    height: auto; 
 }
 #backgroundMySkills {
     background-color: #000000;
@@ -177,6 +181,8 @@ My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 }
 #chImages {
     background-color: #75C5DE;
+    max-width: 100%;
+    height: auto; 
 }
 
 /* FTC Redesign Section */
@@ -190,6 +196,8 @@ My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 }
 #ftcImages {
     background-color: #75C5DE;
+    max-width: 100%;
+    height: auto; 
 }
 #ftcDescription h6 {
     color: #FFFFFF;
@@ -220,6 +228,8 @@ My Works    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 }
 #brtImages {
     background-color: #75C5DE;
+    max-width: 100%;
+    height: auto; 
 }
 
 
